@@ -1,0 +1,29 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/danie/.cache/dune/db
+# Workspace root:
+# /home/danie/cmsc330spring24/mans-not-hot-big-shaq-verse-1-Daniel-Lamb
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/danie/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_a3ea9c_output
+$ (cd _build/default/test/student && ./student.exe)
+> .
+> Ran: 1 tests in: 0.10 seconds.
+> OK
+$ (cd _build/default/test/public && ./public.exe)
+> .........................................................................
+> Ran: 73 tests in: 0.12 seconds.
+> OK
+$ (cd _build/default/test/pbt && ./pbt.exe)
+> ....
+> Ran: 4 tests in: 0.32 seconds.
+> OK

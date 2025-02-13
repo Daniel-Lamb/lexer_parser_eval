@@ -1,0 +1,6 @@
+2024-10-29T05:33:55+00:00 dhl#03 I: Start test pbt:2:test_sum_small_ints.
+2024-10-29T05:33:55+00:00 dhl#03 I: 
+2024-10-29T05:33:55+00:00 dhl#03 I: law test_sum_small_ints: 1000 relevant cases (1000 total)
+2024-10-29T05:33:55+00:00 dhl#03 I: 
+2024-10-29T05:33:55+00:00 dhl#03 I: Test pbt:2:test_sum_small_ints is successful.
+2024-10-29T05:33:55+00:00 dhl#03 I: End test pbt:2:test_sum_small_ints.
